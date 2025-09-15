@@ -16,3 +16,11 @@
 13. Then git add-commit-push (we're saving V2 of our data at this point)
 14. Check dvc/git status, everything should be upto date.
 15. Now repeat step 11-13 for v3 of data.
+
+
+git log --oneline
+get checkout <hashid> (rolls back to previous version but dvc data mismatches)
+dvc pull (to get data of that version)
+
+git checkout main (to let the third versoin ot the last made commit without rollback)
+dvc pull
