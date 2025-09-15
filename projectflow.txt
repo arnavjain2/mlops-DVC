@@ -1,0 +1,2 @@
+1. cloned repo to local
+2. make and use mycode.py
