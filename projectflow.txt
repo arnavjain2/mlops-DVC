@@ -1,2 +1,8 @@
 1. cloned repo to local
-2. make and use mycode.py
+2. make and use mycode.py(to create a csv file and save in data folder)
+3. git add commit push
+# pip install dvc
+4. dvc init(makes .dvc andm .dvcignore)
+5. make a S3 directory ( liek importing data from s3 from AWS)
+6. "dvc remote add -d myremote S3"(S3 url instead od S3 , myremote is the name) output : Setting 'myremote' as a default remote.
+7. Next "dvc add data/" (we tell it to track changes in the data folder)(throws error as file is tracked my git)
